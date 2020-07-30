@@ -40,10 +40,10 @@ def main():
 
 #para criar método privado, começa com 2x '_'
 def __acesso_api():
-    CONSUMER_KEY = 's5kdk5WiYE26aC6WFpVhKjRJJ'  # API KEY TWITTER DEV
-    CONSUMER_SECRET = 'RR12lclVFYwkhfLvEfQGw9brYGvrKPkgNGxXprbLRtr33Muocc'  # API SECRET KEY TWITTER DEV
-    ACCESS_KEY = '1243987395227389952-RCH2TQGcQpfSuQ37FFVCMB7Q3N6wMF'  # ACCESS TOKEN
-    ACCESS_SECRET = 'jGa1ld7JTXocABvhF8e0ELXHW9qJFTQUHzCANTbI4pBnW'  # ACCESS TOKEN SECRET
+    CONSUMER_KEY = ''  # API KEY TWITTER DEV
+    CONSUMER_SECRET = ''  # API SECRET KEY TWITTER DEV
+    ACCESS_KEY = ''  # ACCESS TOKEN
+    ACCESS_SECRET = ''  # ACCESS TOKEN SECRET
 
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)  # Recebe a autorização para acessar o Twitter Dev
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)  # Loga na sessão do Twitter Dev
